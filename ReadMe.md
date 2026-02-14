@@ -1,26 +1,26 @@
 # 💫 About Me:
 Sunil Kumar Govindaraju
 Cybersecurity | Cloud Security | Defensive Engineering
-Professional Summary
+### Professional Summary
 Cybersecurity-focused B.Tech undergraduate in Cloud Technology and Information Security (2023–2027) with strong foundations in network defense, attack surface analysis, and secure cloud architecture. Passionate about building scalable defensive systems that address real-world security challenges.
 
-### Technical Expertise
-## Cybersecurity
+## Technical Expertise
+### Cybersecurity
 Network reconnaissance & attack surface mapping
 Threat modeling & vulnerability assessment
 Secure authentication systems
 Defensive security architecture
-## Cloud & Infrastructure
+### Cloud & Infrastructure
 Cloud security fundamentals
 Secure deployment architecture
 Infrastructure hardening principles
-## Applied Security Projects
+### Applied Security Projects
 Intelligent Attack Surface Mapping System (PhantomSurface)
 AI-Powered Scam Detection & Prevention System
 Blockchain-Based Secure Supply Chain System
 Behavioral-based Authentication Concepts
 Cybersecurity Awareness Game for Beginners
-## What I Bring
+### What I Bring
 Strong analytical approach to security problem-solving
 Architecture-first system design mindset
 Practical implementation of defensive technologies
