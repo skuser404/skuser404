@@ -1,5 +1,32 @@
 # 💫 About Me:
-Sunil Kumar G<br>Cybersecurity | Cloud Security | Secure System Design<br><br>I am a B.Tech undergraduate in Cloud Technology and Information Security (CTIS) at Jain University, Bangalore (2023–2027). I specialize in cybersecurity engineering, cloud infrastructure protection, and intelligent defensive security systems.<br><br>My work focuses on designing scalable, real-world security solutions that strengthen digital infrastructure against evolving cyber threats.<br><br>[ CORE DOMAINS ]<br><br>Network Security & Ethical Hacking<br><br>Cloud Security Architecture<br><br>DNS Security & Secure Communication Protocols<br><br>Threat Modeling & Attack Surface Mapping<br><br>Secure Authentication Systems<br><br>IoT & Blockchain-Based Security Integration<br><br>[ TECHNICAL ORIENTATION ]<br><br>I approach cybersecurity from both defensive and analytical perspectives:<br><br>Reconnaissance & asset discovery methodologies<br><br>Attack surface analysis & exposure assessment<br><br>Secure cloud-native deployments<br><br>Behavioral biometric authentication models<br><br>Real-time anomaly detection systems<br><br>Blockchain-backed supply chain security<br><br>[ SELECT PROJECTS ]<br><br>PhantomSurface – Intelligent Attack Surface Mapping System<br>AI-Powered Scam Call Detection & Prevention System<br>Hybrid Algorithm for Real-Time Sign Language Detection<br>Blockchain-Based Drug Inventory & Supply Chain Tracking<br>Cybersecurity Awareness Game for Beginners<br><br>Each project emphasizes structured architecture, security-first development, and implementation feasibility.<br><br>[ PROFESSIONAL OBJECTIVE ]<br><br>To engineer advanced defensive security systems that enhance infrastructure resilience, digital trust, and secure cloud ecosystems. My long-term goal is to contribute to high-impact cybersecurity research and enterprise-grade security architecture development.
+Sunil Kumar Govindaraju
+Cybersecurity | Cloud Security | Defensive Engineering
+Professional Summary
+Cybersecurity-focused B.Tech undergraduate in Cloud Technology and Information Security (2023–2027) with strong foundations in network defense, attack surface analysis, and secure cloud architecture. Passionate about building scalable defensive systems that address real-world security challenges.
+
+### Technical Expertise
+## Cybersecurity
+Network reconnaissance & attack surface mapping
+Threat modeling & vulnerability assessment
+Secure authentication systems
+Defensive security architecture
+## Cloud & Infrastructure
+Cloud security fundamentals
+Secure deployment architecture
+Infrastructure hardening principles
+## Applied Security Projects
+Intelligent Attack Surface Mapping System (PhantomSurface)
+AI-Powered Scam Detection & Prevention System
+Blockchain-Based Secure Supply Chain System
+Behavioral-based Authentication Concepts
+Cybersecurity Awareness Game for Beginners
+## What I Bring
+Strong analytical approach to security problem-solving
+Architecture-first system design mindset
+Practical implementation of defensive technologies
+Continuous learner in penetration testing & cloud-native security
+## Career Objective
+Seeking cybersecurity internship and entry-level security engineering opportunities where I can contribute to threat detection, infrastructure protection, and enterprise-grade security system development.
 
 
 ## 🌐 Socials:
