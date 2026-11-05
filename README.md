@@ -173,4 +173,3 @@ UPI Scanner · Smart-TV Ad Blocker · NFC Transit Digitization.
 &nbsp;[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=flat-square&logo=linkedin)](https://linkedin.com/in/gsunilkumarcybersecurity)
 &nbsp;[![Email](https://img.shields.io/badge/Email-Reach%20out-C1121F?style=flat-square&logo=gmail&logoColor=white)](mailto:gsunilkumar6018@gmail.com)
 
-<sub>Design language: <b>ANΛITH — Engineering Identity System</b> · graphite foundation, signal-red accent. Built accurate and maintainable.</sub>
