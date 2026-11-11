@@ -1,66 +1,28 @@
-# GitHub Jet Heatmap
+# Profile Setup — skuser404
 
-An animated jet flies over a GitHub-style contribution grid and "hits" your
-busiest days with a bullet + flash + blast effect. The grid colors and
-targeted days are pulled from your **real** GitHub contribution calendar.
+This bundle is your complete GitHub **profile README** repo.
 
-## Setup (one-time)
-
-1. **Put these files in a repo GitHub Actions can push to.**
-   The simplest option is your special profile repo — the one named exactly
-   the same as your username (e.g. `github.com/skuser404/skuser404`), since
-   that's the repo whose README shows on your profile.
-
-   Copy into that repo:
-   - `generate.mjs`
-   - `package.json`
-   - `.github/workflows/jet-heatmap.yml`
-
-2. **No extra secret needed for your own public contributions.** The workflow
-   uses the built-in `GITHUB_TOKEN`, which is enough to read public
-   contribution calendars via the GraphQL API.
-
-   > If you ever want to show a **private** contribution count (the "include
-   > private contributions" toggle on your GitHub profile), you'll need a
-   > personal access token with `read:user` scope instead, saved as a repo
-   > secret (e.g. `GH_PAT`), and referenced in the workflow in place of
-   > `secrets.GITHUB_TOKEN`.
-
-3. **Enable Actions write permissions.** In the repo:
-   `Settings -> Actions -> General -> Workflow permissions` -> select
-   "Read and write permissions".
-
-4. **Run it once manually** to generate the first version:
-   `Actions` tab -> "Update jet heatmap SVG" -> "Run workflow".
-   This creates `dist/github-jet.svg` and commits it.
-
-5. **Embed it in your README:**
-
-   ```md
-   ![GitHub jet heatmap](https://raw.githubusercontent.com/skuser404/skuser404/main/dist/github-jet.svg)
+## Install
+1. Create a repository named **exactly** `skuser404` (same as your username), public, with a README.
+2. Upload these files, keeping the folder structure:
    ```
+   README.md
+   assets/header.svg
+   assets/footer.svg
+   .github/workflows/snake.yml
+   ```
+3. Commit. GitHub shows `README.md` at the top of your profile automatically.
 
-   Replace `skuser404` in both places, and swap `main` for your default
-   branch name if different.
+## Enable the snake animation
+1. Open the repo's **Actions** tab → enable workflows.
+2. Run **"Generate Snake Animation"** once (Run workflow button).
+3. It creates an `output` branch with the snake SVG. The README already points to it. It then refreshes twice a day.
 
-That's it — the Action re-runs daily and repaints the grid with fresh data.
+## Finish these (honesty — only real links)
+- Replace every `» add repo link` / `» add repo + demo link` with your real repository URLs.
+- **AuraSort**: add the GitHub repo link and the GitHub Pages demo link.
+- **LeetCode** (optional): a commented block is in the README. Uncomment and set your username **only if you have a real LeetCode profile**.
 
-## Running it locally
-
-```bash
-npm install     # nothing to install really, but sets things up
-GH_USERNAME=yourname GH_TOKEN=ghp_yourtoken node generate.mjs
-```
-
-The token just needs to be a valid GitHub token (a classic PAT with no
-special scopes works, since contribution calendars are public data).
-
-## Customizing
-
-Open `generate.mjs` — the constants near the top control everything:
-
-- `MAX_TARGETS` — how many of your busiest days get the bullet/blast effect
-- `LOOP_DUR` — how long one flight (there and back) takes, in seconds
-- `FLASH_COLOR`, `BULLET_COLOR`, `BLAST_COLOR` — the accent colors
-- `COLS` / `ROWS` — grid size (34x7 matches GitHub's own layout; changing
-  this changes how many weeks of history are shown)
+## Notes
+- The header/footer are your own custom SVGs (`assets/`) — edit text or colours there anytime. Accent colour is `#C1121F`.
+- The stats / streak / trophy / activity / snake widgets pull **real** data from your account — nothing is faked.
