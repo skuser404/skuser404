@@ -1,0 +1,64 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sunil Kumar — Security-first Engineer · Cloud · AI · Full-Stack">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#010409"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C1121F"/>
+      <stop offset="1" stop-color="#7a0b13"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+
+  <!-- left signal bar -->
+  <rect x="0" y="0" width="6" height="300" fill="url(#red)"/>
+  <rect x="64" y="150" width="54" height="3" fill="#C1121F"/>
+
+  <!-- top mono tag -->
+  <text x="66" y="66" font-family="'JetBrains Mono','Consolas',monospace" font-size="15" letter-spacing="3" fill="#8b949e">// AN&#923;ITH · ENGINEERING IDENTITY SYSTEM</text>
+
+  <!-- name -->
+  <text x="64" y="138" font-family="'Segoe UI',Arial,sans-serif" font-size="66" font-weight="800" fill="#ffffff" letter-spacing="2">SUNIL KUMAR</text>
+
+  <!-- subtitle -->
+  <text x="130" y="180" font-family="'Segoe UI',Arial,sans-serif" font-size="21" fill="#c9d1d9">Security-first Engineer &#8226; Cloud &#8226; AI &#8226; Full-Stack</text>
+
+  <!-- domain chips -->
+  <g font-family="'JetBrains Mono','Consolas',monospace" font-size="13" fill="#c9d1d9">
+    <rect x="64" y="212" width="150" height="30" rx="4" fill="#161b22" stroke="#30363d"/>
+    <text x="78" y="232">Cybersecurity</text>
+    <rect x="224" y="212" width="86" height="30" rx="4" fill="#161b22" stroke="#30363d"/>
+    <text x="238" y="232">Cloud</text>
+    <rect x="320" y="212" width="130" height="30" rx="4" fill="#161b22" stroke="#30363d"/>
+    <text x="334" y="232">AI Engineering</text>
+    <rect x="460" y="212" width="124" height="30" rx="4" fill="#161b22" stroke="#30363d"/>
+    <text x="474" y="232">VAPT &#8226; DevSecOps</text>
+  </g>
+
+  <!-- right circuit motif -->
+  <g stroke="#C1121F" stroke-width="2" fill="none" opacity="0.9" filter="url(#glow)">
+    <path d="M980 70 H1080 V150 H1136"/>
+    <path d="M1010 230 H1090 V170"/>
+    <circle cx="980" cy="70" r="6" fill="#C1121F"/>
+    <circle cx="1136" cy="150" r="6" fill="#C1121F"/>
+    <circle cx="1010" cy="230" r="6" fill="#C1121F"/>
+  </g>
+  <g stroke="#30363d" stroke-width="1.5" fill="none">
+    <path d="M940 110 H1020 V200 H1120"/>
+    <circle cx="940" cy="110" r="4" fill="#30363d"/>
+    <circle cx="1120" cy="200" r="4" fill="#30363d"/>
+  </g>
+
+  <!-- username bottom right -->
+  <text x="1136" y="278" text-anchor="end" font-family="'JetBrains Mono','Consolas',monospace" font-size="14" fill="#C1121F">github.com/skuser404</text>
+</svg>

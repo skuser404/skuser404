@@ -1,0 +1,28 @@
+<svg width="1200" height="140" viewBox="0 0 1200 140" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Let's build something secure — github.com/skuser404">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#010409"/>
+      <stop offset="0.5" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#010409"/>
+    </linearGradient>
+    <linearGradient id="fred" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7a0b13"/>
+      <stop offset="0.5" stop-color="#C1121F"/>
+      <stop offset="1" stop-color="#7a0b13"/>
+    </linearGradient>
+    <pattern id="fgrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="140" fill="url(#fbg)"/>
+  <rect width="1200" height="140" fill="url(#fgrid)"/>
+  <rect x="0" y="0" width="1200" height="4" fill="url(#fred)"/>
+
+  <text x="600" y="64" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="26" font-weight="700" fill="#ffffff">Let&#8217;s build something secure.</text>
+  <text x="600" y="98" text-anchor="middle" font-family="'JetBrains Mono','Consolas',monospace" font-size="14" letter-spacing="2" fill="#8b949e">AN&#923;ITH // graphite foundation &#8226; signal-red accent &#8226; evidence-based engineering</text>
+
+  <!-- signal dots -->
+  <circle cx="470" cy="118" r="3" fill="#C1121F"/>
+  <circle cx="600" cy="118" r="3" fill="#30363d"/>
+  <circle cx="730" cy="118" r="3" fill="#C1121F"/>
+</svg>
